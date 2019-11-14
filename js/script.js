@@ -1,11 +1,11 @@
-// *************************** YOUR CODE BELOW *******************************
-//******************TEST EARLY AND OFTEN USING console.log() ******************
-//****************** SERIOUSLY TEST USING console.log()!!! ******************
+var comprps=["rock","paper","scissors"]
+$("#shoot").click(function(){
+  console.log("win")
+var shoot = $("#input").val();
+  console.log(shoot)
+  var compRPS = comprps[math.floor(math.random)* comprps.length]
+$("#result").text(shoot);
+  console.log()
 
-//GLOBAL VARIABLES
-/* global $ */
 
-
-
-// DOCUMENT READY FUNCTION BELOW
-
+});
